@@ -83,7 +83,7 @@ This model does not consider the emotional dependency strategies of **E**motion-
 
 In EDD, given emotional signal and emotional context graph, we incorporate an emotional cross-attention mechanism to selectively learn the emotional dependencies. 
 ```bash
-**python main.py \
+python main.py \
 --cuda \
 --label_smoothing \
 --noam \
