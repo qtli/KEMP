@@ -1,7 +1,7 @@
-## 	Towards Empathetic Dialogue Generation over Multi-type Knowledge
+## 	Knowledge Bridging for Empathetic Dialogue Generation
 <img src="others/pytorch-logo-dark.png" width="10%"> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
-This is the official implementation for paper [Knowledge Bridging for Empathetic Dialogue Generation](https://arxiv.org/pdf/2009.09708.pdf) (AAAI 2021).
+This is the official implementation for paper [Knowledge Bridging for Empathetic Dialogue Generation](https://qtli.github.io/publication/kemp/kemp.pdf) (AAAI 2021).
 
 ## Model Architecture
 
