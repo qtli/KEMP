@@ -1,0 +1,10 @@
+activations==0.1.0
+file_utils==0.0.1
+nltk==3.6.1
+numpy==1.20.1
+pandas==1.2.4
+scikit_learn==1.0.2
+tensorboardX==2.4.1
+tensorflow==2.7.0
+torch==1.10.0
+tqdm==4.62.3
