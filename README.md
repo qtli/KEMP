@@ -5,7 +5,7 @@ This is the official implementation for paper [Knowledge Bridging for Empathetic
 
 ## Model Architecture
 
-![Image of MKEDG](others/Model.png)
+![Image of KEMP](others/Model.png)
 
 
 ## Setup
@@ -29,7 +29,7 @@ The dataset (EmpatheticDialogue) is preprocessed and stored under `data` in pick
 ```bash
 python preprocess.py
 ```
-
+You can skip the data processing and directly use the processed file `kemp_dataset_preproc.json`.
 
 ## Training
 #### KEMP (Our)
