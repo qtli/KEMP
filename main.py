@@ -119,7 +119,6 @@ if torch.cuda.is_available():
 
 
 if __name__ == '__main__':
-    args = load_params()
     print_file = None
     eval_file = open(args.model+'_eval.txt', 'w')
     data_loader_tra, data_loader_val, data_loader_tst, vocab, program_number = prepare_data_seq(args, batch_size=args.batch_size)
