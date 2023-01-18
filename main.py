@@ -78,7 +78,7 @@ def load_params():
     parser.add_argument("--heads", type=int, default=1, help='number of attention heads')
     parser.add_argument("--depth", type=int, default=40, help='size of last dimension of keys/values. Must be divisible by number of heads')
     parser.add_argument("--filter", type=int, default=50, help='hidden size of the middle layer in FFN.')
-    parser.add_argument("--project", action="store_true", help='project the input of decoder from embedding dimension to hidden dimension')
+    parser.add_argument("--projection", action="store_true", help='project the input of decoder from embedding dimension to hidden dimension')
     parser.add_argument("--concept_num", type=int, default=3, help='the maximum number of external concepts injection for a word.')
     parser.add_argument("--total_concept_num", type=int, default=10, help='the maximum number of external concepts injection for a sentence.')
     parser.add_argument("--max_seq_length", type=int, default=1000, help='max sequence length (required for timing signal)')
