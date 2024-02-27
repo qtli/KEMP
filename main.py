@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from tensorboardX import SummaryWriter
+from torch.utils.tensorboard import SummaryWriter
 import logging
 import argparse
 from copy import deepcopy
