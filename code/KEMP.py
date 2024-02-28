@@ -557,7 +557,7 @@ class KEMP(nn.Module):
         mask_trg = ys.data.eq(self.args.PAD_idx).unsqueeze(1)
         decoded_words = []
         for i in range(max_dec_step+1):
-            if self.args.project:
+            if self.args.projection:
                 out, attn_dist, _ = self.decoder(self.embedding_proj_in(ys_emb), self.embedding_proj_in(encoder_outputs), (mask_src,mask_trg))
             else:
                 out, attn_dist, _ = self.decoder(inputs=ys_emb,
